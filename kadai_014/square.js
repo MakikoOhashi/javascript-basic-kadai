@@ -1,4 +1,4 @@
 const calculateSquared =(amount)=>{
-    console.log(amount*amount);
+    return amount*amount;
 }
-calculateSquared(10);
+console.log(calculateSquared(10));
